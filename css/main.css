@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #0F945A;
+  --color-primary: #fdfdfd;
   --color-secondary: #f85a40;
 }
 
@@ -291,7 +291,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: var(--color-primary);
+  background-color: #DBD7D7;
 }
 
 .header.sticked {
@@ -313,7 +313,7 @@ section {
   margin: 0;
   font-weight: 600;
   letter-spacing: 0.8px;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-primary);
 }
 
@@ -363,7 +363,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: #000000;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -400,7 +400,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: ##006459;
   }
 
   .navbar .dropdown ul {
@@ -499,7 +499,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #DDE2DF;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -514,7 +514,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
+    color: #000;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -530,7 +530,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #006459;
   }
 
   .navbar .getstarted,
@@ -650,7 +650,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: var(--color-primary);
+  color: #E5DEDE;
 }
 
 .about .content p:last-child {
@@ -1734,7 +1734,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #1DC37A;
+  background-color: #099b28;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1898,11 +1898,11 @@ section {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: #000000;
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000000;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -2572,7 +2572,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #D4D4D4;
+  background-color: #eeeeee;
   padding: 50px 0;
   color: black;
 }
