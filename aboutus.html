@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="" rel="icon">
-  <link href=" img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +19,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href=" vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href=" vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href=" vendor/aos/aos.css" rel="stylesheet">
-  <link href=" vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href=" vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href=" css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Impact
@@ -44,14 +44,22 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src=" img/logo.png" alt=""> -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
         <img src="ncsblogo2.png" style="width: 100%"><div class="nugenheader">NUGEN</div>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="service.html">Services</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li class="dropdown">
+                <a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="service.html">Telecommunication</a></li>
+              <li><a href="service1.html">Building Works</a></li>
+              <li><a href="service2.html">Civil Works</a></li>
+              <li><a href="service3.html">ICT</a></li>
+            </ul>
+          </li>
           <li><a href="product.html">Product</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -68,7 +76,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('aupic.avif');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('aupic.avif');background-position: center;background-size: 100%;background-repeat: no-repeat">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -86,6 +94,16 @@
         </div>
       </nav>
     </div><!-- End Breadcrumbs -->
+      
+      <div class="container">
+          <p></p>
+          <h2>Nugen Communications Organization Chart</h2>
+          
+          <div class="container">
+              <a href="ncsbchart.png" data-gallery="portfolio-gallery-app" class="glightbox">
+                  <img src="ncsbchart.png" width="100%"></a>
+          </div>
+      </div>
 
     
       <!-- ======= Our Services Section ======= -->
@@ -95,7 +113,7 @@
       
             
             <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom">OTHER REGISTRATIONS INCLUDE:</h2>
+    <h2 class="pb-2 border-bottom">We are registered under:</h2>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
      <div class="col">
@@ -192,13 +210,12 @@
         
          <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-white rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="background-image: url("");background-repeat: no-repeat;background-position: center;background-size: auto">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="background-image:url(dbkkLogo.png);background-repeat: no-repeat;background-position: center;background-size: 30%">
             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
             <ul class="d-flex list-unstyled mt-auto">
-             <li>
+                <li class="lesentext">
                 PELESENAN PERDAGANGAN NEGERI SABAH
                 </li>
-          
             </ul>
           </div>
         </div>
@@ -291,16 +308,16 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src=" vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src=" vendor/aos/aos.js"></script>
-  <script src=" vendor/glightbox/js/glightbox.min.js"></script>
-  <script src=" vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src=" vendor/swiper/swiper-bundle.min.js"></script>
-  <script src=" vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src=" vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src=" js/main.js"></script>
+  <script src="assets/js/main.js"></script>
       
       <!-- popup -->
       <div id="popup-window">
