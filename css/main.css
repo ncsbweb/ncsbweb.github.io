@@ -2783,3 +2783,30 @@ section {
 
 .button1 {background-color: #04AA6D;} /* Green */
 
+.button2 {
+  border: none;
+  color: none;
+  padding:5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {background-color: #grey;} /* Green */
+
+.button3 {
+  border: none;
+  color: none;
+  padding:5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {background-color: #67FF87;} /* Green */
