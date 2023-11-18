@@ -2781,7 +2781,7 @@ section {
   cursor: pointer;
 }
 
-.button1 {background-color: #04AA6D;} /* Green */
+.button1 {background-color: #21bf4b;} /* Green */
 
 .button2 {
   border: none;
@@ -2809,4 +2809,4 @@ section {
   cursor: pointer;
 }
 
-.button {background-color: #67FF87;} /* Green */
+.button {background-color: #21bf4b;} /* Green */
