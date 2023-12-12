@@ -1898,7 +1898,7 @@ section {
   width: 100%;
   position: relative;
   background: var(--color-primary);
-  padding: 60px 0 0 0;
+  padding: 0px 0 0 0;
 }
 
 @media (min-width: 1365px) {
@@ -2810,3 +2810,26 @@ section {
 }
 
 .button {background-color: #21bf4b;} /* Green */
+
+.benefit 
+{
+    text-align: center;
+    font-size: 29px;
+    padding: 20px 0 20px 0;
+}
+
+.mstable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
