@@ -2795,10 +2795,11 @@ section {
   cursor: pointer;
 }
 
-.button3 {background-color: #grey;} /* Green */
+.button3 {background-color: #ffffff;} /* Green */
 
 .button3 {
   border: none;
+    border-radius: 5px;
   color: none;
   padding:5px 10px;
   text-align: center;
@@ -2809,7 +2810,11 @@ section {
   cursor: pointer;
 }
 
-.button {background-color: #21bf4b;} /* Green */
+.button 
+{
+    background-color: #21bf4b;
+    border-radius: 5px
+} /* Green */
 
 .benefit 
 {
@@ -2832,4 +2837,23 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.productheader {
+    color: white;
+    font-size: 55px;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.learnmore 
+{
+    color: black;
+    font-weight: bold;
+    
+}
+
+.productheader2{
+    color: white;
+    font-size: 80px;
+    -webkit-text-stroke: 1.5px black;
 }
