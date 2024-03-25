@@ -2859,7 +2859,8 @@ tr:nth-child(even) {
     -webkit-text-stroke: 1.5px black;
 }
 
-.bi bi-arrow-right
+.vision,.mission
 {
-    
+   color: #000000;
+text-shadow: 4px 3px 0 #7A7A7A;
 }
